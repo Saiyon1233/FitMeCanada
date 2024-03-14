@@ -1,0 +1,68 @@
+<!-- Enter User Data. Skip if file exists -->
+
+<!doctype HTML>
+<html>
+
+<head>
+    <title>FitMeAttire UI</title>
+    <script src="/javascript/takeUserInputAndWriteFile.js"></script>
+</head>
+
+<style type="text/css">
+    /* Pop-up size formatting */
+    
+    body {
+        min-width: 320px;
+        min-height: 360px;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        vertical-align: middle;
+        margin: auto;
+        width: 50%;
+        border: 3px solid, pink;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Enter your measurements!</h1>
+
+    <!-- Enter user information here
+			Check https://stackoverflow.com/questions/23982774/turn-html-form-input-into-javascript-variable
+			and https://www.w3schools.com/tags/tag_input.asp
+		-->
+    <form name="form" id="form">
+        <label for="chest-bust-size">Chest/Bust Size (cm):</label>
+        <br>
+        <input type="number" id="chest-bust-size" name="chest-bust-size">
+        <br>
+        <label for="waist-circumference">Waist Circumference (cm):</label>
+        <br>
+        <input type="number" id="waist-circumference" name="waist-circumference">
+        <br>
+        <label for="hip-circumference">Hip Circumference (cm):</label>
+        <br>
+        <input type="number" id="hip-circumference" name="hip-circumference">
+        <br>
+        <label for="hat-circumference">Hat Circumference (cm):</label>
+        <br>
+        <input type="number" id="hat-circumference" name="hat-circumference">
+        <br>
+        <label for="shoe-size">Shoe size (US):</label>
+        <br>
+        <input type="number" id="shoe-size" name="shoe-size">
+        <br>
+    </form>
+    <br>
+    <button type="button" id="submit">Submit</button>
+
+    <p style="color:red;" id="p1"></p>
+    
+    <script src="/javascript/takeUserInputAndWriteFile.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+  
+    "name": "FitMeAttire",
+    "description": "FitMeAttire Google Chrome Extension [PROTOTYPE]",
+    "version": "0.1",
+
+    "icons": { 
+        "128": "/icons/128x128.png"
+    },
+
+    "offline_enabled": false,
+  
+    "action": {
+        "default_popup": "html/start.html",
+        "default_title": "FitMeAttire Chrome Extension"
+    },
+
+    "incognito": "not_allowed",
+
+    "permissions": [
+        "activeTab"
+    ]
+}

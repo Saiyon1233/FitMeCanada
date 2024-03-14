@@ -1,0 +1,13 @@
+ordering of pages/interfaces
+0 - main menu (homepage)
+1 - user inputs measurements
+2 - program is loading
+3 - program displays results
+
+Note: We can't use the <script> tags in the html files. We can't do that because of privacy issues. To combat this, use <script src= "script name.js"></script> 
+to do any JavaScripting.
+
+https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page/38408000
+^ refer to this to know where to put your <script src=""></script>
+
+shoe size is in US
